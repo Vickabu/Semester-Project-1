@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: #B5CDCF;
+    margin: 0;
+}
+
+/*navbar*/
+
+nav {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    background-color: #263D3F;
+    font-size: 20px;
+    max-height: 35px;
+}
+
+.navlogo {
+    max-width: 200px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+nav ul {
+    list-style: none;
+}
+
+
+nav ul, li {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+nav ul, li, a {
+    text-decoration: none;
+    padding: 5px;
+    color: #D9F2F4;
+    border-radius: 5%;
+}
+
+nav ul li a.activ {
+    background-color: #4A7073;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#hamburger {
+    padding: 5px 7px 3px 7px;
+    border-radius: 5%;
+}
+
+#hamburger svg {
+    height: 30px;
+    color: #D9F2F4;
+}
+
+#hamburger:hover {
+    background-color: #4A7073;
+}
+
+#checkbox, #hamburger {
+    display: none;
+}
+
+
+/*footer*/
+
+footer {
+    display: flex;
+    height: auto;
+    background-color: #263D3F;
+    color: #D9F2F4;
+    align-items: center;
+    width: 100%;
+
+}
+
+
+.icons {
+    padding-left: 10%;
+    margin-right: 5%;
+}
+
+.footnav {
+    display: flex;
+}
+
+.foot-list {
+    padding-left: 25px;
+}
+
+.foot-list > a {
+    display: block;
+    padding-bottom: 2%;
+}
+
+.foot-list > a:hover {
+    text-decoration: underline;
+}
+
+
+.footlogo img{
+    max-width: 300px;
+    cursor: pointer;
+}
+
+.face-logo {
+    width: 57px;
+    height: 55px;
+
+}
+
+.yt-logo {
+    width: 55px;
+    height: 55px;
+}
+
+.insta-logo {
+    width: 57px;
+    height: 55px;
+}
+
+
+
+
+
+/*media*/
+
+@media (min-width: 769px) and (max-width: 1400px) {
+   
+    .face-logo {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .yt-logo {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .insta-logo {
+        width: 30px;
+        height: 30px;
+    }
+
+    .footlogo img{
+        max-width: 250px;
+    }
+    
+
+}
+
+@media (min-width: 770px) and (max-width: 960px) {
+    
+    nav ul, li {
+        display: inline-block;
+        margin-right: 0;
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width: 769px) {
+    
+
+    nav {
+        max-width: 100%;
+        justify-content: space-between;
+        height: 35px;
+        font-size: 15px;
+    }
+   
+    nav ul {
+        position: absolute;
+        background-color: #263D3F;
+        width: 100%;
+        left: 0;
+        top: 0;
+        border-radius: 0;
+        text-align: center;
+        display: none;
+        margin-top: 60px;
+        padding: 15px 0 10px 0;
+    }
+
+    nav ul li {
+        display: block;
+    }
+
+    nav ul li a {
+        display: block;
+        border-radius: 0;
+        padding: 15px 10px;
+    }
+
+    #hamburger {
+        display: block;
+    }
+
+    #checkbox:checked~ul {
+        display: block;
+    }
+
+
+    footer {
+        height: 200px;
+    }
+
+
+    .footlogo img{
+        max-width: 150px;
+    }
+
+    .foot-list > h2 {
+        font-size: 15px;
+    }
+
+    .foot-list {
+        font-size: 15px;
+    }
+
+
+
+    
+    .face-logo {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .yt-logo {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .insta-logo {
+        width: 20px;
+        height: 20px;
+    }
+
+
+    
+
+}
