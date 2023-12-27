@@ -20,7 +20,7 @@ nav {
 .navlogo {
     max-width: 200px;
     padding-left: 2%;
-    padding-right: 2%;
+    padding-right: 10%;
 }
 
 nav ul {
@@ -82,11 +82,14 @@ footer {
 
 .icons {
     padding-left: 10%;
-    margin-right: 5%;
+    margin-right: 2%;
 }
 
 .footnav {
     display: flex;
+    padding-left: 5%;
+    justify-content: space-between;
+    font-size: 20px;
 }
 
 .foot-list {
@@ -106,22 +109,22 @@ footer {
 .footlogo img{
     max-width: 300px;
     cursor: pointer;
+    margin-left: 5%;
 }
 
 .face-logo {
-    width: 57px;
-    height: 55px;
-
+    width: 40px;
+    height: 35px;
 }
 
 .yt-logo {
-    width: 55px;
-    height: 55px;
+    width: 40px;
+    height: 40px;
 }
 
 .insta-logo {
-    width: 57px;
-    height: 55px;
+    width: 40px;
+    height: 40px;
 }
 
 
@@ -132,20 +135,6 @@ footer {
 
 @media (min-width: 769px) and (max-width: 1400px) {
    
-    .face-logo {
-        width: 30px;
-        height: 30px;
-    }
-    
-    .yt-logo {
-        width: 30px;
-        height: 30px;
-    }
-    
-    .insta-logo {
-        width: 30px;
-        height: 30px;
-    }
 
     .footlogo img{
         max-width: 250px;
@@ -159,7 +148,11 @@ footer {
     nav ul, li {
         display: inline-block;
         margin-right: 0;
-        font-size: 15px;
+        font-size: 20px;
+    }
+
+    .navlogo {
+        padding-right: 5%;
     }
 
 }
@@ -173,6 +166,11 @@ footer {
         height: 35px;
         font-size: 15px;
     }
+
+    .navlogo {
+        padding-right: 0%
+    }
+
    
     nav ul {
         position: absolute;
@@ -206,13 +204,10 @@ footer {
     }
 
 
-    footer {
-        height: 200px;
-    }
-
 
     .footlogo img{
-        max-width: 150px;
+        max-width: 180px;
+
     }
 
     .foot-list > h2 {
@@ -227,21 +222,38 @@ footer {
 
     
     .face-logo {
-        width: 20px;
-        height: 20px;
+        width: 30px;
+        height: 25px;
     }
     
     .yt-logo {
-        width: 20px;
-        height: 20px;
+        width: 30px;
+        height: 30px;
     }
     
     .insta-logo {
-        width: 20px;
-        height: 20px;
+        width: 30px;
+        height: 30px;
     }
 
 
-    
+}
+
+@media (max-width: 525px) {
+
+    footer {
+        display: block;
+    }
+
+    .footlogo img{
+        max-width: 180px;
+        margin-left: 10%;
+    }
+
+    .icons {
+        padding: 5%;
+        margin-left: 20px;
+    }
+
 
 }
