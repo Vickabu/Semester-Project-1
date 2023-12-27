@@ -1,0 +1,150 @@
+
+.banner {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.banner-photos {
+    width: 33.33%;
+    object-fit: cover;
+    max-height: 600px;
+}
+
+.intro {
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 45px;
+    font-weight: bold;
+
+}
+
+p {
+    font-size: 40px;
+}
+
+.contact {
+  margin-left: 70%;
+    
+}
+
+
+
+section {
+    background-color: #4A7073;
+    color: #FFFFFF;
+    display: flex;
+    margin-bottom: 2%;
+}
+
+section img {
+    max-height: 590px;
+    max-width: 840px;
+    width: 100%;
+    object-fit: cover;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.info {
+    display: block;
+    margin-left: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 840px;
+    
+}
+
+@media (min-width: 769px) and (max-width: 1400px) {
+
+    h1 {
+        font-size: 50px;
+        font-weight: bold;
+    }
+    
+    h3 {
+        font-size: 35px;
+        font-weight: bold;
+    
+    }
+    
+    p {
+        font-size: 30px;
+    }
+    
+    .contact {
+      margin-left: 70%;
+        
+    }
+
+}
+
+
+@media (min-width: 770px) and (max-width: 960px) {
+
+    h1 {
+        font-size: 40px;
+        font-weight: bold;
+    }
+    
+    h3 {
+        font-size: 25px;
+        font-weight: bold;
+    
+    }
+    
+    p {
+        font-size: 20px;
+    }
+    
+    .contact {
+      margin-left: 70%;
+        
+    }
+
+    section {
+        display: block;
+    }
+
+    .info {
+        padding: 5%;
+        width: 90%;        
+    }
+    
+}
+
+@media (max-width: 769px) {
+
+    h1 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+    h3 {
+        font-size: 20px;
+        font-weight: bold;
+    
+    }
+    
+    p {
+        font-size: 15px;
+    }
+
+    section {
+        display: block;
+    }
+    
+    .info {
+        padding: 5%;
+        width: 90%;
+        
+    }
+
+}
