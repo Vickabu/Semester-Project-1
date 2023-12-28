@@ -22,7 +22,7 @@ nav {
 .navlogo {
     max-width: 200px;
     padding-left: 2%;
-    padding-right: 10%;
+    padding-right: 5%;
 }
 
 nav ul {
@@ -223,9 +223,13 @@ footer {
 
     }
 
+
     .foot-list {
         font-size: 15px;
     }
+
+
+
     
     .face-logo {
         width: 30px;

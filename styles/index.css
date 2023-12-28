@@ -17,7 +17,86 @@ header {
     stroke: solid black;
 }
 
+h2 {
+    text-align: center;
+    padding: 1%;
+}
 
+
+.midbanner {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-bottom: 2%;
+}
+
+.midbanner-photos {
+    width: 33.33%;
+    object-fit: cover;
+    max-height: 600px;
+}
+
+
+
+.dark-section, .info-card {
+    background-color: #4A7073;
+    color: #ffffff;
+    margin-bottom: 2%;
+}
+
+
+
+.showcards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.showcard {
+    display: block;
+    max-width: 615px;
+    height: 684px;
+    text-align: center;
+    background-color: aqua;
+}
+
+
+.showcard-img {
+    max-height: 380px;
+    max-width: 715px;
+}
+
+.inbetween-section {
+    display: flex;
+    margin-bottom: 2%;
+}
+
+.inbetween-photo {
+    max-width: 640px;
+    max-height: 714px;
+}
+
+
+.info-cards {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.info-card {
+    max-width: 595px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.info-card-img {
+    max-height: 385px;
+    max-width: 520px;
+    object-fit: cover;
+}
+
+
+
+/*media*/
 
 @media (min-width: 769px) and (max-width: 1400px) {
 
@@ -30,6 +109,8 @@ header {
         font-size: 20px;
         padding: 2px;
     }
+
+
 }
 
 @media (max-width: 768px) {
@@ -41,5 +122,7 @@ header {
     .banner-text {
         font-size: 10px;
     }
+
+
 
 }
