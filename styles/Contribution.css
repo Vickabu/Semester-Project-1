@@ -11,8 +11,14 @@
     max-height: 600px;
 }
 
+main {
+    margin-bottom: 5%;
+}
+
+
 .intro {
     text-align: center;
+    margin-bottom: 2%;
 }
 
 h1 {
@@ -23,16 +29,23 @@ h1 {
 h3 {
     font-size: 45px;
     font-weight: bold;
+    margin-bottom: 0;
 
 }
 
 p {
     font-size: 40px;
+    margin-top: 0;
 }
 
 .contact {
   margin-left: 70%;
-    
+  font-size: 20px;
+  padding-bottom: 2%;
+}
+
+.contact:hover {
+    text-decoration: underline;
 }
 
 
@@ -51,13 +64,18 @@ section img {
     object-fit: cover;
     margin-top: 5%;
     margin-bottom: 5%;
+    margin-left: 2%;    
 }
+
+#volunteer {
+    padding-top: 2%;
+}
+
 
 .info {
     display: block;
-    margin-left: 2%;
-    padding-left: 5%;
-    padding-right: 5%;
+    margin-left: 3%;
+    margin-top: 2%;
     width: 840px;
     
 }
@@ -79,8 +97,22 @@ section img {
         font-size: 30px;
     }
     
-    .contact {
-      margin-left: 70%;
+   
+
+    section {
+        display: block;
+    }
+
+    section img {
+        margin-right: auto;
+        margin-left: 15%;
+        height: 70%;
+        width: 70%;
+    }
+
+    .info {
+        margin-left: auto;
+        margin-right: auto;
         
     }
 
@@ -113,6 +145,8 @@ section img {
         display: block;
     }
 
+    
+
     .info {
         padding: 5%;
         width: 90%;        
@@ -137,13 +171,22 @@ section img {
         font-size: 15px;
     }
 
+    .contact {
+        font-size: 15px;
+        margin-left: 60%;
+    }
+
     section {
         display: block;
+    }
+
+    section img {
+        margin-left: 0%;
     }
     
     .info {
         padding: 5%;
-        width: 90%;
+        width: 80%;
         
     }
 
