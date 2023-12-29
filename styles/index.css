@@ -20,7 +20,21 @@ header {
 h2 {
     text-align: center;
     padding: 1%;
+    font-size: 50px;
 }
+
+.h2-diff {
+    text-decoration: underline;
+    stroke: solid black;
+}
+
+h3 {
+    font-size: 45px;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 100;
+}
+
 
 
 .midbanner {
@@ -33,17 +47,15 @@ h2 {
 .midbanner-photos {
     width: 33.33%;
     object-fit: cover;
-    max-height: 600px;
+    max-height: 800px;
 }
-
 
 
 .dark-section, .info-card {
     background-color: #4A7073;
     color: #ffffff;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
 }
-
 
 
 .showcards {
@@ -53,55 +65,92 @@ h2 {
 
 .showcard {
     display: block;
-    max-width: 615px;
-    height: 684px;
+    max-width: 580px;
+    height: auto;
     text-align: center;
-    background-color: aqua;
     padding-right: 2%;
 }
 
-
 .showcard-img {
+    max-width: 100%;
     max-height: 380px;
-    max-width: 715px;
+    width: 715px;
+    object-fit: contain;
 }
 
+.showcard-info {
+    text-align: left;
+    font-size: 40px;
+    margin-top: 0;
+}
 
 .directionlinks {
     text-align: right;
     padding: 1%;
-    font-size: 20px;
+    font-size: 25px;
     text-decoration: underline;
 }
+
+
 
 
 .inbetween-section {
     display: flex;
     margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    align-items: center;
 }
 
 .inbetween-photo {
     max-width: 640px;
     max-height: 714px;
+    padding-right: 5%;
+    width: 100%;
+    height: 100%;
 }
+
+.inbetween-quote {
+    font-size: 45px;
+    font-weight: bold;
+    max-width: 45%;
+}
+
+#quote-diff {
+    margin-bottom: 15%;
+}
+
+
+
+
 
 
 .info-cards {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 
 }
 
 .info-card {
-    max-width: 595px;
+    max-width: 540px;
     border-radius: 10px;
     text-align: center;
+    height: auto;
+    display: block;
 }
 
 .info-card-img {
-    max-height: 385px;
-    max-width: 520px;
-    object-fit: cover;
+    max-height: 310px;
+    max-width: 450px;
+    object-fit: contain;
+}
+
+.info-text {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
 }
 
 
@@ -116,17 +165,55 @@ h2 {
 
     .banner-text {
         color: #FCF9F8;
-        font-size: 20px;
+        font-size: 30px;
         padding: 2px;
     }
 
     .showcards {
-        display: block;
+        flex-wrap: wrap;
         margin-left: auto;
         margin-right: auto;
     }
 
+    h2 {
+        font-size: 40px;
+    }
+    
+    h3 {
+        font-size: 35px;
+    }
+    
+
+    .showcard-info {
+        font-size: 30px;
+        padding-bottom: 5%;
+    }
+  
+    .inbetween-section {
+        flex-wrap: wrap;
+    }
+
+    .inbetween-photo {
+        padding-right: 0%;
+    }
+    
+    .inbetween-quote {
+        font-size: 35px;
+        max-width: 80%;
+    }
+
+    #quote-diff {
+        margin-bottom: 8%;
+    }
+    
+    
+
 }
+
+
+
+
+
 
 @media (max-width: 768px) {
 
@@ -135,13 +222,64 @@ h2 {
     }
 
     .banner-text {
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .showcards {
-        display: block;
+        flex-wrap: wrap;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+    
+    h3 {
+        font-size: 23px;
+    }
+    
+
+    .showcard-info {
+        font-size: 20px;
+        padding-bottom: 5%;
+    }
+
+    .directionlinks {
+        font-size: 15px;
+    }
+
+    .inbetween-section {
+        flex-wrap: wrap;
+    }
+
+    .inbetween-photo {
+        padding-right: 0%;
+    }
+    
+    .inbetween-quote {
+        font-size: 25px;
+        max-width: 100%;
+    }
+
+    #quote-diff {
+        margin-bottom: 2%;
+    }
+
+
+    
+    .info-card {
+        max-width: 80%;
+    }
+    
+    .info-card-img {
+        max-width: 90%;
+    }
+    
+    .info-text {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 90%;
     }
 
 

@@ -69,6 +69,15 @@ nav ul li a:hover {
 }
 
 
+/*other*/
+
+.dark-section, .info-card {
+    background-color: #4A7073;
+    color: #ffffff;
+    margin-bottom: 5%;
+}
+
+
 /*footer*/
 
 footer {
