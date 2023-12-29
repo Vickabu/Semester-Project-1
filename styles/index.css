@@ -37,19 +37,6 @@ h3 {
 
 
 
-.midbanner {
-    width: 100%;
-    height: auto;
-    display: flex;
-    margin-bottom: 3%;
-}
-
-.midbanner-photos {
-    width: 33.33%;
-    object-fit: cover;
-    max-height: 800px;
-}
-
 
 .dark-section, .info-card {
     background-color: #4A7073;
@@ -84,38 +71,6 @@ h3 {
     margin-top: 0;
 }
 
-.directionlinks {
-    text-align: right;
-    padding: 1%;
-    font-size: 25px;
-    text-decoration: underline;
-}
-
-
-
-
-.inbetween-section {
-    display: flex;
-    margin-bottom: 2%;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 80%;
-    align-items: center;
-}
-
-.inbetween-photo {
-    max-width: 640px;
-    max-height: 714px;
-    padding-right: 5%;
-    width: 100%;
-    height: 100%;
-}
-
-.inbetween-quote {
-    font-size: 45px;
-    font-weight: bold;
-    max-width: 45%;
-}
 
 #quote-diff {
     margin-bottom: 15%;
@@ -123,14 +78,10 @@ h3 {
 
 
 
-
-
-
 .info-cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-
 }
 
 .info-card {
@@ -188,19 +139,7 @@ h3 {
         font-size: 30px;
         padding-bottom: 5%;
     }
-  
-    .inbetween-section {
-        flex-wrap: wrap;
-    }
 
-    .inbetween-photo {
-        padding-right: 0%;
-    }
-    
-    .inbetween-quote {
-        font-size: 35px;
-        max-width: 80%;
-    }
 
     #quote-diff {
         margin-bottom: 8%;
@@ -245,27 +184,10 @@ h3 {
         padding-bottom: 5%;
     }
 
-    .directionlinks {
-        font-size: 15px;
-    }
-
-    .inbetween-section {
-        flex-wrap: wrap;
-    }
-
-    .inbetween-photo {
-        padding-right: 0%;
-    }
-    
-    .inbetween-quote {
-        font-size: 25px;
-        max-width: 100%;
-    }
 
     #quote-diff {
         margin-bottom: 2%;
     }
-
 
     
     .info-card {

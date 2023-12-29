@@ -77,6 +77,61 @@ nav ul li a:hover {
     margin-bottom: 5%;
 }
 
+.light-section {
+    background-color: #70ABAF;
+    color: #000000;
+    margin-bottom: 5%;
+}
+
+.directionlinks {
+    text-align: right;
+    padding: 1%;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+
+
+.midbanner {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-bottom: 3%;
+}
+
+.midbanner-photos {
+    width: 33.33%;
+    object-fit: cover;
+    max-height: 800px;
+}
+
+
+.inbetween-section {
+    display: flex;
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    align-items: center;
+}
+
+.inbetween-photo {
+    max-width: 640px;
+    max-height: 714px;
+    padding-right: 5%;
+    width: 100%;
+    height: 100%;
+}
+
+.inbetween-quote {
+    font-size: 45px;
+    font-weight: bold;
+    max-width: 45%;
+}
+
+
+
+
 
 /*footer*/
 
@@ -158,6 +213,19 @@ footer {
         max-width: 250px;
         margin-left: 0%;
     }
+
+    .inbetween-section {
+        flex-wrap: wrap;
+    }
+
+    .inbetween-photo {
+        padding-right: 0%;
+    }
+    
+    .inbetween-quote {
+        font-size: 35px;
+        max-width: 80%;
+    }
     
 
 }
@@ -222,6 +290,24 @@ footer {
 
     #checkbox:checked~ul {
         display: block;
+    }
+
+
+    .inbetween-section {
+        flex-wrap: wrap;
+    }
+
+    .inbetween-photo {
+        padding-right: 0%;
+    }
+    
+    .inbetween-quote {
+        font-size: 20px;
+        max-width: 100%;
+    }
+
+    .directionlinks {
+        font-size: 15px;
     }
 
 

@@ -6,6 +6,7 @@ header {
     object-fit: fill;
     background-size: cover;
     background-position: center;
+    margin-bottom: 2%;
 }
 
 .banner-text {
@@ -19,6 +20,93 @@ header {
 h1 {
     font-weight: lighter;
 }
+
+h2 {
+    text-decoration: underline;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 2%;
+}
+
+.h2-diff {
+    text-align: left;
+}
+
+.h3-diff {
+    text-decoration: underline;
+}
+
+.picture-slide {
+    display: flex;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 500px;
+}
+
+.picture-slide::-webkit-scrollbar {
+    width: 100%
+}
+
+.picture-slide::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0);
+    
+}
+
+.picture-slide::-webkit-scrollbar-thumb {
+    background-color: rgba(38, 61, 63, 100%);
+    border-radius: 5px;
+}
+
+.exhib-img {
+    max-width: 33.33%;
+    max-height: auto;
+    object-fit: cover;
+}
+
+
+.exhib-info {
+    font-size: 40px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2%;
+}
+
+.kids-section {
+    background-color: #70ABAF;
+    color: #000000;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.end-sections {
+    display: flex;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.leftphoto {
+    max-height: 752px;
+    max-width: 685px;
+    width: 100%;
+    object-fit: cover;
+    padding-right: 5%;
+    padding-top: 5%;
+}
+
+.info {
+    display: block;
+    margin-left: 3%;
+    margin-top: 2%;
+    width: 1000px; 
+}
+
 
 /*media*/
 
@@ -35,6 +123,58 @@ h1 {
         margin-top: 175px;
     }
 
+    .inbetween-photo {
+        max-width: 500px;
+        max-height: 600px;
+        padding-right: 0%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+
+    .inbetween-quote {
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .picture-slide {
+        flex-direction: row;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+    }
+    
+    
+    .exhib-img {
+        max-width: 100%;
+        max-height: auto;
+        object-fit: cover;
+    }
+
+
+    .exhib-info {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    .end-sections {
+        display: block;
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .leftphoto {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 100%;
+
+    }
+
+
 }
 
 @media (max-width: 768px) {
@@ -48,6 +188,57 @@ h1 {
         font-size: 10px;
         margin-top: 12%;
         margin-top: 75px;
+    }
+
+    .inbetween-photo {
+        max-width: 300px;
+        max-height: 400px;
+        padding-right: 0%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+    .inbetween-quote {
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .picture-slide {
+        display: flex;
+        flex-direction: row;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        max-height: 400px;
+    }
+    
+    
+    .exhib-img {
+        max-width: 100%;
+        max-height: auto;
+        object-fit: cover;
+    }
+
+
+    .exhib-info {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+
+    .end-sections {
+        display: block;
+        max-width: 90%;
+    }
+    
+    .leftphoto {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 100%;
     }
 
 }
