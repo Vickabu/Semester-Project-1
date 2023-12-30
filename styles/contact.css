@@ -116,13 +116,19 @@ fieldset {
 
 label {
     display: block;
+    font-size: 20px;
+}
+
+input {
+    font-size: 20px;
 }
 
 textarea {
     color: #000000;
-    font-size: 15px;
+    font-size: 20px;
     display: block;
 }
+
 
 button {
     max-width: 150px;
@@ -250,6 +256,19 @@ th, td {
         margin-right: auto;
         margin-bottom: 10%;
     }
+
+    label {
+        font-size: 15px;
+    }
+    
+    input {
+        font-size: 15px;
+    }
+    
+    textarea {
+        font-size: 15px;
+    }
+    
 
 }
 
