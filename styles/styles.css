@@ -366,6 +366,10 @@ footer {
         text-align: left;
     }
 
+    .foot-list {
+        padding-left: 10px;
+    }
+
     .footlogo img{
         max-width: 200px;
         margin-left: auto;
