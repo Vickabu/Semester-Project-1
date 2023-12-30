@@ -234,7 +234,9 @@ th, td {
     }
     
     .info-points {
-        gap: 5%;
+
+        flex-wrap: wrap;
+
     }
     
     .info-points2 {
