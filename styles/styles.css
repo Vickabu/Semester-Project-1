@@ -78,7 +78,7 @@ nav ul li a:hover {
 }
 
 .light-section {
-    background-color: #70ABAF;
+    background-color: #6A9194;
     color: #000000;
     margin-bottom: 5%;
 }
@@ -89,6 +89,7 @@ nav ul li a:hover {
     font-size: 25px;
     text-decoration: underline;
 }
+
 
 
 
@@ -159,8 +160,8 @@ footer {
 
 .footnav {
     display: flex;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     justify-content: space-between;
     font-size: 20px;
 }
@@ -212,6 +213,12 @@ footer {
     .footlogo {
         max-width: 250px;
         margin-left: 0%;
+    }
+
+    .footnav {
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 5%;
     }
 
     .inbetween-section {
@@ -282,6 +289,8 @@ footer {
         display: block;
         border-radius: 0;
         padding: 15px 10px;
+        margin-left: 5%;
+
     }
 
     #hamburger {
@@ -291,6 +300,8 @@ footer {
     #checkbox:checked~ul {
         display: block;
     }
+
+
 
 
     .inbetween-section {
@@ -348,11 +359,18 @@ footer {
 
     footer {
         display: block;
+        text-align: center;
+    }
+
+    .footnav {
+        text-align: left;
     }
 
     .footlogo img{
         max-width: 200px;
-        margin-left: 30%;
+        margin-left: auto;
+        margin-right: auto;
+
     }
 
     .icons {
