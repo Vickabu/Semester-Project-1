@@ -97,7 +97,7 @@ iframe {
     margin-left: 10%;
     background-color: #4A7073;
     color: #FFFFFF;
-    max-width: 300px;
+    max-width: 450px;
     display: block;
     height: auto;
     text-align: center;
@@ -116,16 +116,16 @@ fieldset {
 
 label {
     display: block;
-    font-size: 20px;
+    font-size: 35px;
 }
 
 input {
-    font-size: 20px;
+    font-size: 30px;
 }
 
 textarea {
     color: #000000;
-    font-size: 20px;
+    font-size: 30px;
     display: block;
 }
 
