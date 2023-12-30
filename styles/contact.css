@@ -92,6 +92,58 @@ iframe {
 }
 
 
+
+.form-container {
+    margin-left: 10%;
+    background-color: #4A7073;
+    color: #FFFFFF;
+    max-width: 300px;
+    display: block;
+    height: auto;
+    text-align: center;
+    margin-bottom: 5%;
+    align-items: center;
+    border-radius: 5px;
+}
+
+fieldset {
+    text-align: left;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+}
+
+label {
+    display: block;
+}
+
+textarea {
+    color: #000000;
+    font-size: 15px;
+    display: block;
+}
+
+button {
+    max-width: 150px;
+    height: auto;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-radius: 2px;
+    font-size: 15px;
+    border-style: none;
+    cursor: pointer;
+    margin-bottom: 2%;
+}
+
+button:hover {
+    box-shadow: -1px -1px 4px #000000
+}
+
+
+
+
+
 @media (min-width: 769px) and (max-width: 1400px) {
 
     header {
@@ -193,5 +245,35 @@ th, td {
         padding-right: 0%;
     }
 
+    .form-container {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10%;
+    }
+
 }
 
+@media (max-width: 280px) {
+
+    .form-container {
+        max-width: 90%;
+    }
+
+
+    textarea {
+        font-size: 10px;
+
+    }
+    
+    button {
+        max-width: 100px;
+        font-size: 10px;
+    }
+    label {
+        font-size: 10px;
+    }
+
+    input {
+        font-size: 10px;
+    }
+}
