@@ -10,18 +10,29 @@ section {
 
 h1 {
     margin-bottom: 0%;
+    font-size: 50px;
+}
+
+h3 { 
+    font-size: 45px;
+    margin-bottom: 0;
 }
 
 h4 {
     margin-top: 1%;
 }
 
+p {
+    font-size: 35px;
+    margin-top: 1;
+}
 
 main {
     margin-top: 40px;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-right: auto;
+    margin-left: auto;
     margin-bottom: 10%;
+    max-width: 80%;
 }
 
 
@@ -35,6 +46,19 @@ main {
     .innerlogo {
         max-width: 80%;
     }
+
+    h1 {
+        font-size: 45px;
+    }
+    
+    h3 { 
+        font-size: 35px;
+    }
+
+    
+    p {
+        font-size: 30px;
+    }
 }
 
 @media (max-width: 769px) {
@@ -46,5 +70,18 @@ main {
 
     .innerlogo {
         max-width: 70%;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+    
+    h3 { 
+        font-size: 25px;
+    }
+
+    
+    p {
+        font-size: 25px;
     }
 }
