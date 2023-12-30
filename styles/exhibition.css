@@ -32,8 +32,10 @@ h2 {
     text-align: left;
 }
 
-.h3-diff {
+h3 {
     text-decoration: underline;
+    margin-bottom: 0;
+    margin-top: 2%;
 }
 
 .picture-slide {
@@ -83,6 +85,44 @@ h2 {
     font-weight: bold;
 }
 
+
+.news-section {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.news-container {
+    display: flex;
+    background-color: #4A7073;
+    color: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 2%;
+
+}
+
+.news-photo {
+    max-height: 475px;
+    max-width: 425px;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-bottom: 2%;
+}
+
+.news-text {
+    font-size: 40px;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 3%;
+}
+
+.news-info {
+    margin-top: 1%;
+}
+
+
+
 .end-sections {
     display: flex;
     max-width: 90%;
@@ -99,6 +139,11 @@ h2 {
     padding-right: 5%;
     padding-top: 5%;
 }
+
+#microscope {
+    padding-bottom: 5%;
+}
+
 
 .info {
     display: block;
@@ -160,6 +205,43 @@ h2 {
         font-size: 40px;
     }
 
+
+    .news-section {
+        max-width: 100%;
+    }
+    
+    .news-container {
+        display: block;
+        border-radius: 5px;
+        max-width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding-bottom: 5%;
+        
+    }
+    
+    .news-photo {
+        max-width: 90%;
+        max-height: 90%;
+        padding-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 5%;
+    }
+    
+    .news-text {
+        font-size: 25px;
+        max-width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+        padding-bottom: 1%;
+    }
+    
+
+
+
     .end-sections {
         display: block;
         max-width: 90%;
@@ -171,7 +253,10 @@ h2 {
         margin-right: auto;
         margin-left: auto;
         max-width: 100%;
+    }
 
+    #microscope {
+        padding-bottom: 0%;
     }
 
 
@@ -181,7 +266,6 @@ h2 {
     header {
         height: 200px;
         background-size: cover;
-        
     }
 
     .banner-text {
@@ -229,6 +313,42 @@ h2 {
         font-size: 25px;
     }
 
+    h3 {
+        font-size: 20px;
+    }
+
+    .news-section {
+        padding-bottom: 2%;
+    }
+
+    .news-container {
+        display: block;
+        border-radius: 5px;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center; 
+    }
+    
+    .news-photo {
+        max-width: 90%;
+        max-height: 90%;
+        padding-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 5%;
+    }
+    
+    .news-text {
+        font-size: 20px;
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+        padding-bottom: 1%;
+    }
+
+
 
     .end-sections {
         display: block;
@@ -240,6 +360,11 @@ h2 {
         margin-left: auto;
         max-width: 100%;
     }
+
+    #microscope {
+        padding-bottom: 0%;
+    }
+
 
 }
 

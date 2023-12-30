@@ -8,6 +8,15 @@ section {
     margin-top: 50px;
 }
 
+h1 {
+    margin-bottom: 0%;
+}
+
+h4 {
+    margin-top: 1%;
+}
+
+
 main {
     margin-top: 40px;
     margin-left: 25%;
@@ -17,13 +26,24 @@ main {
 
 
 @media (min-width: 769px) and (max-width: 1400px) {
+
+    main {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
     .innerlogo {
         max-width: 80%;
-        
     }
 }
 
 @media (max-width: 769px) {
+
+    main {
+        margin-left: 12%;
+        margin-right: 12%;
+    }
+
     .innerlogo {
         max-width: 70%;
     }
