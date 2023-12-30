@@ -22,24 +22,23 @@ h3 {
 }
 
 p {
-    font-size: 40px;
+    font-size: 35px;
     margin-top: 0;
 }
 
-.info-points {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: 10%;
-    margin-left: 10%;
-    margin-top: 0;
+
+
+th, td {
+    font-size: 35px;
+    
 }
 
-.point {
-    display: block;
-    padding: 5%;
-    max-width: 30%;
-    max-width: 750px;
-    margin-top: 0;
+th {
+    text-align: left;
+}
+
+td {
+    text-align: right;
 }
 
 .picture {  
@@ -50,11 +49,46 @@ p {
     margin-bottom: 0;
 }
 
+
+.info-points {
+    display: flex;
+    max-width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+    justify-content: space-evenly;
+    gap: 20%;
+}
+
+.info-points2 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 90%;
+    margin-right: auto;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    
+}
+
+.point {
+    display: block;
+    max-width: 500px;
+    margin-top: 0;
+}
+
+.point2 {
+    justify-content: space-between;
+    padding-right: 5%;
+    max-width: 400px;
+
+}
+
 iframe {
     max-width: 80%;
     margin-right: auto;
     margin-left: auto;
     display: block;
+    border: 0;
 }
 
 
@@ -69,6 +103,47 @@ iframe {
         font-size: 20px;
         padding: 2px;
     }
+
+    
+h1 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 25px;
+}
+
+
+
+th, td {
+    font-size: 25px;
+    
+}
+
+
+.info-points {
+    gap: 10%;
+}
+
+.info-points2 {
+    flex-wrap: wrap;
+    max-width: 75%
+    
+}
+
+.point {
+    max-width: 400px;
+}
+
+.point2 {
+    padding-right: 0%;
+}
+
+
 }
 
 @media (max-width: 768px) {
@@ -79,6 +154,43 @@ iframe {
 
     .banner-text {
         font-size: 10px;
+    }
+
+
+    h1 {
+        font-size: 35px;
+    }
+    
+    h3 {
+        font-size: 25px;
+    }
+    
+    p {
+        font-size: 15px;
+    }
+    
+    
+    th, td {
+        font-size: 15px;
+        
+    }
+    
+    .info-points {
+        gap: 5%;
+    }
+    
+    .info-points2 {
+        flex-wrap: wrap;
+        max-width: 70%;
+        margin-left: 15%;        
+    }
+    
+    .point {
+        max-width: 400px;
+    }
+    
+    .point2 {
+        padding-right: 0%;
     }
 
 }

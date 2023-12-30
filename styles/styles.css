@@ -38,7 +38,7 @@ nav ul, li {
 nav ul, li, a {
     text-decoration: none;
     padding: 5px;
-    color: #D9F2F4;
+    color: #ffffff;
     border-radius: 5%;
 }
 
@@ -57,7 +57,7 @@ nav ul li a:hover {
 
 #hamburger svg {
     height: 30px;
-    color: #D9F2F4;
+    color: #ffffff;
 }
 
 #hamburger:hover {
@@ -140,7 +140,7 @@ footer {
     display: flex;
     height: auto;
     background-color: #263D3F;
-    color: #D9F2F4;
+    color: #ffffff;
     align-items: center;
     width: 100%;
     justify-content: space-between;
