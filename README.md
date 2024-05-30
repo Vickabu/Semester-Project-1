@@ -17,12 +17,14 @@ The Kongsten Science Museum project is designed to create a modern, accessible, 
 - A privacy policy page displaying the museum's privacy policy.
 - A terms and conditions page outlining the museum's terms and conditions.
 
+
 ## Built With
 
 You can list a the tech stack that you've used over here
 
 - [HTML]
 - [CSS]
+
 
 ## Getting Started
 
@@ -42,6 +44,7 @@ git clone git@github.com: gh repo clone Vickabu/Semester-Project-1
 cd Semester-Project-1
 ```
 
+
 ### Running
 
 Since the project uses static HTML and CSS, you can simply open the `index.html` file in your browser to view the website.
@@ -57,6 +60,7 @@ npm install -g live-server
 npm install -g live-server
 ```
 
+
 ## Contributing
 
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
@@ -69,15 +73,20 @@ If you have a suggestion that would make this better, please fork the repo and c
 4. Push to the Branch (git push origin feature/AmazingFeature)
 5. Open a Pull Request
 
+
 ## Contact
 
 - More information will come soon, meanwhile contact @Vickabu on GitHub if you have any questions. 
+
 
 
 ## Acknowledgments
 
 - Images from Pixabay
 - Icons from Heroicons and SVG Repo
+
+
+
 
 ## Project Information
 
