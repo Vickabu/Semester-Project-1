@@ -1,4 +1,4 @@
-# Semester Project 1
+# Semester Project 1: Kongsten Science Museum 
 
 ![image](https://github.com/Vickabu/Semester-Project-1/blob/main/assets/brightlogo.png)
 
