@@ -6,13 +6,16 @@ A simple overview of the use/purpose of the project.
 
 ## Description
 
-Add a more detailed description of what your project entails and set out to do.
+The Kongsten Science Museum project is designed to create a modern, accessible, and responsive web presence for a museum that targets a younger audience. The website aims to excite and entice visitors by presenting key information and impactful imagery in a clean, engaging, and user-friendly manner. 
 
-You can add some bullet points if you'd like to:
+### Key Features:
 
-- List item 1
-- List item 2
-- List item 3
+- A home page showcasing key information and impactful imagery.
+- A contact page with the museum's address, phone number, opening hours, and a contact form.
+- A contribution page detailing how to contribute to the museum.
+- An exhibitions page listing upcoming events and available exhibitions.
+- A privacy policy page displaying the museum's privacy policy.
+- A terms and conditions page outlining the museum's terms and conditions.
 
 ## Built With
 
@@ -25,7 +28,7 @@ You can list a the tech stack that you've used over here
 
 ### Installing
 
-This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
+To get a local copy up and running, follow these simple steps.
 
 1. Clone the repo:
 
@@ -33,38 +36,65 @@ This is where you list how to get the project started. It typically just include
 git clone git@github.com: gh repo clone Vickabu/Semester-Project-1
 ```
 
-2. Install the dependencies:
+2. Navigate to the project directory:
 
 ```
-npm install
+cd Semester-Project-1
 ```
 
 ### Running
 
-Here is where you detail how to run the app. It typically involves the commands you'd need to run to start the project e.g.
+Since the project uses static HTML and CSS, you can simply open the `index.html` file in your browser to view the website.
 
-To run the app, run the following commands:
+Alternatively, you can use a local server to serve the files. For example, using live-server (if you have Node.js installed):
 
+1. Install live-server globally:
 ```bash
-npm run start
+npm install -g live-server
+```
+2. Run live-server in the project directory:
+```bash
+npm install -g live-server
 ```
 
 ## Contributing
 
-Here you can detail any information you want to provide regarding contributing to the project. For big projects you will usually have a separate `CONTRIBUTING.md` and link to it, but for smaller projects you can simply include instructions here. These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so code can be reviewed.
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (git checkout -b feature/AmazingFeature)
+3. Commit your Changes (git commit -m 'Add some AmazingFeature')
+4. Push to the Branch (git push origin feature/AmazingFeature)
+5. Open a Pull Request
 
 ## Contact
 
-This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
+- More information will come soon, meanwhile contact @Vickabu on GitHub if you have any questions. 
 
-[My Twitter page](www.twitter.com)
-
-[My LinkedIn page](www.linkedin.com)
-
-## License
-
-You can link to your license file here if you're using one, or mention what license the codebase falls under. If you're unsure then you can simply delete this section.
 
 ## Acknowledgments
 
-This is where you can add any acknowledgements if you'd like, such as to people who have helped you or any code snippets you'd like to mention. You can delete this section if you don't have any acknowledgements to make.
+- Images from Pixabay
+- Icons from Heroicons and SVG Repo
+
+## Project Information
+
+### Brief
+Design and build a modern, accessible, and responsive web presence for a fictional Museum using provided images(optional) and text content. The website should appeal to youngsters without pandering, aiming to excite and entice them to visit the museum.
+
+### User Stories
+
+### Requirements
+- Visitors can view a home page with key information and impactful imagery.
+- Visitors can view a contact page with the museum's address, phone number, opening hours, and contact form.
+- Visitors can view a contribution page with information on how to contribute to the museum.
+- Visitors can view an exhibitions page with upcoming events and available exhibitions.
+- Visitors can view a privacy policy page with the museum's privacy policy.
+- Visitors can view a terms and conditions page with the museum's terms and conditions.
+
+### Limitations
+- No CSS frameworks.
+- No unlicensed imagery.
+- No JavaScript.
