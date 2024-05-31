@@ -80,14 +80,6 @@ If you have a suggestion that would make this better, please fork the repo and c
 
 
 
-## Acknowledgments
-
-- Images from Pixabay
-- Icons from Heroicons and SVG Repo
-
-
-
-
 ## Project Information
 
 ### Brief
@@ -107,3 +99,9 @@ Design and build a modern, accessible, and responsive web presence for a fiction
 - No CSS frameworks.
 - No unlicensed imagery.
 - No JavaScript.
+
+
+## Acknowledgments
+
+- Images from Pixabay
+- Icons from Heroicons and SVG Repo
