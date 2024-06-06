@@ -76,7 +76,7 @@ If you have a suggestion that would make this better, please fork the repo and c
 
 ## Contact
 
-- More information will come soon, meanwhile contact @Vickabu on GitHub if you have any questions. 
+- More information will come soon
 
 
 
